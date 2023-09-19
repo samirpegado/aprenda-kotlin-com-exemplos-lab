@@ -1,10 +1,9 @@
-# Aprenda Kotlin Com Exemplos: Desafio de Projeto (Lab)
+### Minha solucao para este desafio da DIO cria um sistema simples de formação educacional em Kotlin. Ele define três classes principais: Usuario, ConteudoEducacional e Formacao.
 
-Desafio de Projeto criado para avaliação do conteúdo técnico explorado no repositório [aprenda-kotlin-com-exemplos](https://github.com/digitalinnovationone/aprenda-kotlin-com-exemplos). **Nesse contexto, iremos abstrair o seguinte domínio de aplicação:**
+* A classe Usuario representa um usuário com nome e email.
+* A classe ConteudoEducacional representa um conteúdo educacional com nome e duração em horas.
+* A classe Formacao representa uma formação que pode conter vários conteúdos educacionais e manter uma lista de inscritos.
 
-**A [DIO](https://web.dio.me) possui `Formacoes` incríveis que têm como objetivo oferecer um conjunto de `ConteudosEducacionais` voltados para uma stack tecnológica específica, preparando profissionais de TI para o mercado de trabalho. `Formacoes` possuem algumas características importantes, como `nome`, `nivel` e seus respectivos `conteudosEducacionais`. Além disso, tais experiências educacionais têm um comportamento relevante ao nosso domínio, definido pela capacidade de `matricular` um ou mais `Alunos`.**
+#### No cenário de teste, você cria dois conteúdos educacionais, dois usuários e uma formação chamada "Kotlin Backend". Em seguida, você matricula os dois usuários na formação e lista os conteúdos educacionais disponíveis na formação.
 
-
-```kotlin
-TODO("Crie uma solução em Koltin abstraindo esse domínio. O arquivo [desafio.kt] te ajudará 😉")
-```
+#### O código demonstra como criar objetos, associar usuários a formações e listar os conteúdos educacionais de uma formação. É um exemplo básico de modelagem de domínio educacional em Kotlin.
